@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index1.css">
+    <link rel="stylesheet" href="style1.css">
+    <script src="code.js"></script>
     <title>Document</title>
 </head>
 <body>
-    <!-- <p id="title1">במה אפשר לעזור לך היום?</p>
+
+    <p id="title1">במה אפשר לעזור לך היום?</p>
     <div id="search-box">
         <div id="box-background"></div>
         <input type="text" id="search-area" name="fname"  placeholder="  חפש">
@@ -22,48 +24,7 @@
         <div class="category" id="category4">פה"מ</div>
         <div class="category" id="category5">עבודה עם לקוח</div>
         <div class="category" id="category6">באגים</div>
-    </div> -->
-
-    <h1>שאלות נפוצות</h1>
-
-    <div id="questionForm">
-        <h2>שאל שאלה</h2>
-        <input type="text" id="questionInput" placeholder="הכנס את השאלה שלך כאן">
-        <button onclick="addQuestion()">שלח שאלה</button>
-    </div>
-
-    <div id="questionsContainer">
-        <h2>שאלות קודמות</h2>
-        <ul id="questionsList">
-            </ul>
     </div>
     
-    <script type="module">
-        // Import the functions you need from the SDKs you need
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-app.js";
-        import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-analytics.js";
-        // TODO: Add SDKs for Firebase products that you want to use
-        // https://firebase.google.com/docs/web/setup#available-libraries
-      
-        // Your web app's Firebase configuration
-        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-        const firebaseConfig = {
-          apiKey: "AIzaSyA_DmxyMwfp60oR4EqyuEistIH7aaOIN0w",
-          authDomain: "questionsformapal.firebaseapp.com",
-          projectId: "questionsformapal",
-          storageBucket: "questionsformapal.firebasestorage.app",
-          messagingSenderId: "740370131718",
-          appId: "1:740370131718:web:adc3d6caf9110d63d34c87",
-          measurementId: "G-C8WNV8LRZL"
-        };
-      
-        // Initialize Firebase
-        const app = initializeApp(firebaseConfig);
-        const analytics = getAnalytics(app);
-      </script>
-      <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
-      <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore-compat.js"></script>
-      <script type="text/javascript" src="index1.js"></script>
-
 </body>
 </html>
